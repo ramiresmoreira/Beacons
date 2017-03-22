@@ -1,0 +1,10 @@
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/obj/Release/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/obj/Release/Beacons.App.xaml
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/obj/Release/Beacons.BeaconsPage.xaml
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/obj/Release/Beacons.App.xaml.g.cs
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/obj/Release/Beacons.BeaconsPage.xaml.g.cs
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/bin/Release/Beacons.dll
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/obj/Release/Beacons.dll
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/bin/Release/Xamarin.Forms.Core.dll
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/bin/Release/Xamarin.Forms.Platform.dll
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/bin/Release/Xamarin.Forms.Xaml.dll
