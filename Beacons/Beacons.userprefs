@@ -1,11 +1,34 @@
-﻿<Properties StartupConfiguration="{2053CCD9-104E-4E6C-B824-311BB9A118CC}|Default">
-  <MonoDevelop.Ide.ItemProperties.Beacons.Droid PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{63890CC1-4422-4BA0-9CF6-5F61095FE45D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Beacons.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Beacons/BeaconsPage.xaml.cs">
+    <Files>
+      <File FileName="Droid/BeaconsDroid.cs" Line="24" Column="21" />
+      <File FileName="iOS/BeaconsIOS.cs" Line="37" Column="37" />
+      <File FileName="Beacons/BeaconsPage.xaml.cs" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Beacons" expanded="True">
+            <Node name="Beacons" expanded="True">
+              <Node name="BeaconsPage.xaml" expanded="True">
+                <Node name="BeaconsPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Beacons.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Beacons/BeaconsPage.xaml" relfile="Beacons/BeaconsPage.xaml" line="6" column="1" />
+      <Breakpoint file="/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Beacons/BeaconsPage.xaml" relfile="Beacons/BeaconsPage.xaml" line="5" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Beacons.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B1F7BAA-E182-43C7-A18B-8A1A205DEC64" />
+  <MonoDevelop.Ide.ItemProperties.Beacons.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.37EA3FF2-6FFA-423C-989F-8C3A289BE561" />
   <MultiItemStartupConfigurations />
 </Properties>

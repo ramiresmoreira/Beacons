@@ -19,7 +19,7 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using CoreLocation;
 using Foundation;
 using CoreFoundation;
@@ -31,11 +31,10 @@ namespace Beacons.iOS
 	{
 		//CLBeaconManager beaconManager;
 		CLBeaconRegion region;
-		List<Beacon> beacons = new List<Beacon>();
+		ObservableCollection<Beacon> beacons = new ObservableCollection<Beacon>();
 		MYCBPeripheralManagerDelegate peripheralDelegate;
 		CBPeripheralManager peripheralManager;
 		CLLocationManager locatoinManager;
-		string uuid = "B9407F30-F5F8-466E-AFF9-25556B57FE6D"; //default estimote uuid
 		string IdRegion = "LIT";
 
 
@@ -43,9 +42,11 @@ namespace Beacons.iOS
 		{
 			peripheralDelegate = new MYCBPeripheralManagerDelegate();
 			peripheralManager = new CBPeripheralManager(peripheralDelegate,DispatchQueue.DefaultGlobalQueue);
+			var options = new NSDictionary();
+			peripheralManager.StartAdvertising(options);
 		}
 
-		public List<Beacon> carregaBeacons()
+		public ObservableCollection<Beacon> getBeacons(string uuid)
 		{
 			var regionUUID = new NSUuid(uuid);
 			region = new CLBeaconRegion(regionUUID,IdRegion);
@@ -69,7 +70,13 @@ namespace Beacons.iOS
 				}			
 			};
 
-			return beacons;
+			//return beacons;
+
+			beacons.Add(new Beacon(123, 9899, uuid));
+			beacons.Add(new Beacon(765, 529, uuid));
+			beacons.Add(new Beacon(871, 965, uuid));
+			beacons.Add(new Beacon(421, 8739, uuid));
+			return this.beacons;
 		}
 	}
 

@@ -3003,15 +3003,6 @@ namespace Beacons.Droid
 			// aapt resource value: 0x7f060011
 			public const int character_counter_pattern = 2131099665;
 			
-			// aapt resource value: 0x7f060026
-			public const int error_no_bluetooth_enabled = 2131099686;
-			
-			// aapt resource value: 0x7f060027
-			public const int error_no_bluetooth_le = 2131099687;
-			
-			// aapt resource value: 0x7f060028
-			public const int error_no_location_permission = 2131099688;
-			
 			// aapt resource value: 0x7f060000
 			public const int mr_button_content_description = 2131099648;
 			
@@ -3057,24 +3048,6 @@ namespace Beacons.Droid
 			// aapt resource value: 0x7f06000e
 			public const int mr_user_route_category_name = 2131099662;
 			
-			// aapt resource value: 0x7f060029
-			public const int requesting_location_access = 2131099689;
-			
-			// aapt resource value: 0x7f06002a
-			public const int requesting_location_access_cancel = 2131099690;
-			
-			// aapt resource value: 0x7f06002b
-			public const int requesting_location_access_ok = 2131099691;
-			
-			// aapt resource value: 0x7f06002c
-			public const int requesting_location_access_rationale = 2131099692;
-			
-			// aapt resource value: 0x7f06002d
-			public const int requesting_location_permission = 2131099693;
-			
-			// aapt resource value: 0x7f06002e
-			public const int requesting_location_permission_rationale = 2131099694;
-			
 			// aapt resource value: 0x7f060025
 			public const int status_bar_notification_info_overflow = 2131099685;
 			
@@ -3106,8 +3079,8 @@ namespace Beacons.Droid
 			// aapt resource value: 0x7f09001c
 			public const int Animation_Design_BottomSheetDialog = 2131296284;
 			
-			// aapt resource value: 0x7f090175
-			public const int AppCompatDialogStyle = 2131296629;
+			// aapt resource value: 0x7f090174
+			public const int AppCompatDialogStyle = 2131296628;
 			
 			// aapt resource value: 0x7f0900be
 			public const int Base_AlertDialog_AppCompat = 2131296446;
@@ -3550,11 +3523,11 @@ namespace Beacons.Droid
 			// aapt resource value: 0x7f09001a
 			public const int CardView_Light = 2131296282;
 			
-			// aapt resource value: 0x7f090173
-			public const int MyTheme = 2131296627;
+			// aapt resource value: 0x7f090172
+			public const int MyTheme = 2131296626;
 			
-			// aapt resource value: 0x7f090174
-			public const int MyTheme_Base = 2131296628;
+			// aapt resource value: 0x7f090173
+			public const int MyTheme_Base = 2131296627;
 			
 			// aapt resource value: 0x7f09004b
 			public const int Platform_AppCompat = 2131296331;
@@ -3897,9 +3870,6 @@ namespace Beacons.Droid
 			
 			// aapt resource value: 0x7f090003
 			public const int Theme_MediaRouter_LightControlPanel = 2131296259;
-			
-			// aapt resource value: 0x7f090172
-			public const int Theme_Transparent = 2131296626;
 			
 			// aapt resource value: 0x7f090127
 			public const int ThemeOverlay_AppCompat = 2131296551;

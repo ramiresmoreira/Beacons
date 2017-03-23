@@ -20,8 +20,8 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using Beacons.Droid;
-using EstimoteSdk;
 
 [assembly: Xamarin.Forms.Dependency(typeof(BeaconsDroid))]
 namespace Beacons.Droid
@@ -31,14 +31,18 @@ namespace Beacons.Droid
 		//static readonly int NOTIFICATION_ID = 123321;
 		//BeaconManager beaconManager;
 		//Region region;
-
+		ObservableCollection<Beacon> Beacons = new ObservableCollection<Beacon>();
 		public BeaconsDroid()
 		{
 		}
 
-		public List<Beacon> carregaBeacons()
+		public ObservableCollection<Beacon> getBeacons(string uuid)
 		{
-			throw new NotImplementedException();
+			Beacons.Add(new Beacon(123, 9899, uuid));
+			Beacons.Add(new Beacon(765, 529, uuid));
+			Beacons.Add(new Beacon(871, 965, uuid));
+			Beacons.Add(new Beacon(421, 8739, uuid));
+			return this.Beacons;
 		}
 	}
 }

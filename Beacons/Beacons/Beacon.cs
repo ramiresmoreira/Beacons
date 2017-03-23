@@ -25,9 +25,9 @@ namespace Beacons
 	public class Beacon
 	{
 
-		Int16 Minor;
-		Int32 Major;
-		string uuid;
+		public Int16 Minor { get; set; }
+		public Int32 Major { get; set; }
+		public string uuid { get; set; }
 
 		public Beacon(Int16 minor, Int16 major, string uuid)
 		{

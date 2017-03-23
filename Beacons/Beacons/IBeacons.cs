@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.ObjectModel;
 
 
 namespace Beacons
@@ -6,7 +6,7 @@ namespace Beacons
 	public interface IBeacons
 	{
 
-		List<Beacon> carregaBeacons();
+		ObservableCollection<Beacon> getBeacons(string uuid);
 	}
 
 
