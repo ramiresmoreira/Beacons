@@ -9,8 +9,10 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
 #import <QuartzCore/CAEmitterBehavior.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <CloudKit/CloudKit.h>
 #import <GLKit/GLKit.h>
@@ -25,10 +27,14 @@
 @class UIKit_UIControlEventProxy;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
+@class Beacons_iOS_BeaconsIOS;
+@class Beacons_iOS_MYCBPeripheralManagerDelegate;
+@class Beacons_iOS_MyBeacon;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UIView_UIViewAppearance;
+@class CoreLocation_CLLocationManager__CLLocationManagerDelegate;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;

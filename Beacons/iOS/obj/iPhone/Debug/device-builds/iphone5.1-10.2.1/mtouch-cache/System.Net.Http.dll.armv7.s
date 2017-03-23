@@ -42734,7 +42734,7 @@ _mono_aot_file_info:
 	.long 1464,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 189,236,94,47,247,112,124,20,21,130,92,143,173,198,34,75
+	.byte 12,25,3,101,232,107,72,160,151,193,85,114,26,220,38,209
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 2
 _mono_aot_module_System_Net_Http_info:

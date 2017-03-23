@@ -1,26 +1,6 @@
 ﻿<Properties StartupConfiguration="{63890CC1-4422-4BA0-9CF6-5F61095FE45D}|Default">
-  <MonoDevelop.Ide.ItemProperties.Beacons.Droid PreferredExecutionTarget="Android.192.168.56.101:5555" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Beacons/BeaconsPage.xaml.cs">
-    <Files>
-      <File FileName="Droid/BeaconsDroid.cs" Line="24" Column="21" />
-      <File FileName="iOS/BeaconsIOS.cs" Line="37" Column="37" />
-      <File FileName="Beacons/BeaconsPage.xaml.cs" Line="27" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Beacons" expanded="True">
-            <Node name="Beacons" expanded="True">
-              <Node name="BeaconsPage.xaml" expanded="True">
-                <Node name="BeaconsPage.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="Beacons.Droid" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Beacons.Droid PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -29,6 +9,6 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Beacons.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.37EA3FF2-6FFA-423C-989F-8C3A289BE561" />
+  <MonoDevelop.Ide.ItemProperties.Beacons.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B1F7BAA-E182-43C7-A18B-8A1A205DEC64" />
   <MultiItemStartupConfigurations />
 </Properties>

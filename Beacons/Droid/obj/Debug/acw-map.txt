@@ -2,6 +2,10 @@ Beacons.Droid.MainActivity, Beacons.Droid;md5dc62b7ce2992b967e6a29823b01c0b0b.Ma
 Beacons.Droid.MainActivity, Beacons.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5dc62b7ce2992b967e6a29823b01c0b0b.MainActivity
 Beacons.Droid.MainActivity;md5dc62b7ce2992b967e6a29823b01c0b0b.MainActivity
 beacons.droid.MainActivity;md5dc62b7ce2992b967e6a29823b01c0b0b.MainActivity
+Beacons.Droid.BeaconsDroid, Beacons.Droid;md5dc62b7ce2992b967e6a29823b01c0b0b.BeaconsDroid
+Beacons.Droid.BeaconsDroid, Beacons.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5dc62b7ce2992b967e6a29823b01c0b0b.BeaconsDroid
+Beacons.Droid.BeaconsDroid;md5dc62b7ce2992b967e6a29823b01c0b0b.BeaconsDroid
+beacons.droid.BeaconsDroid;md5dc62b7ce2992b967e6a29823b01c0b0b.BeaconsDroid
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
@@ -566,3 +570,39 @@ Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Fo
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 xamarin.forms.platform.android.appcompat.FormsFragmentPagerAdapter_1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
+EstimoteSdk.BeaconManager/IEddystoneListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
+EstimoteSdk.BeaconManager+IEddystoneListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
+EstimoteSdk.BeaconManager.IEddystoneListenerImplementor;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
+mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor;mono.com.estimote.sdk.BeaconManager_EddystoneListenerImplementor
+EstimoteSdk.BeaconManager/IErrorListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_ErrorListenerImplementor
+EstimoteSdk.BeaconManager+IErrorListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_ErrorListenerImplementor
+EstimoteSdk.BeaconManager.IErrorListenerImplementor;mono.com.estimote.sdk.BeaconManager_ErrorListenerImplementor
+mono.com.estimote.sdk.BeaconManager_ErrorListenerImplementor;mono.com.estimote.sdk.BeaconManager_ErrorListenerImplementor
+EstimoteSdk.BeaconManager/ILocationListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_LocationListenerImplementor
+EstimoteSdk.BeaconManager+ILocationListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_LocationListenerImplementor
+EstimoteSdk.BeaconManager.ILocationListenerImplementor;mono.com.estimote.sdk.BeaconManager_LocationListenerImplementor
+mono.com.estimote.sdk.BeaconManager_LocationListenerImplementor;mono.com.estimote.sdk.BeaconManager_LocationListenerImplementor
+EstimoteSdk.BeaconManager/IMonitoringListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_MonitoringListenerImplementor
+EstimoteSdk.BeaconManager+IMonitoringListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_MonitoringListenerImplementor
+EstimoteSdk.BeaconManager.IMonitoringListenerImplementor;mono.com.estimote.sdk.BeaconManager_MonitoringListenerImplementor
+mono.com.estimote.sdk.BeaconManager_MonitoringListenerImplementor;mono.com.estimote.sdk.BeaconManager_MonitoringListenerImplementor
+EstimoteSdk.BeaconManager/INearableListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_NearableListenerImplementor
+EstimoteSdk.BeaconManager+INearableListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_NearableListenerImplementor
+EstimoteSdk.BeaconManager.INearableListenerImplementor;mono.com.estimote.sdk.BeaconManager_NearableListenerImplementor
+mono.com.estimote.sdk.BeaconManager_NearableListenerImplementor;mono.com.estimote.sdk.BeaconManager_NearableListenerImplementor
+EstimoteSdk.BeaconManager/IRangingListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_RangingListenerImplementor
+EstimoteSdk.BeaconManager+IRangingListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_RangingListenerImplementor
+EstimoteSdk.BeaconManager.IRangingListenerImplementor;mono.com.estimote.sdk.BeaconManager_RangingListenerImplementor
+mono.com.estimote.sdk.BeaconManager_RangingListenerImplementor;mono.com.estimote.sdk.BeaconManager_RangingListenerImplementor
+EstimoteSdk.BeaconManager/IScanStatusListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_ScanStatusListenerImplementor
+EstimoteSdk.BeaconManager+IScanStatusListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_ScanStatusListenerImplementor
+EstimoteSdk.BeaconManager.IScanStatusListenerImplementor;mono.com.estimote.sdk.BeaconManager_ScanStatusListenerImplementor
+mono.com.estimote.sdk.BeaconManager_ScanStatusListenerImplementor;mono.com.estimote.sdk.BeaconManager_ScanStatusListenerImplementor
+EstimoteSdk.BeaconManager/ITelemetryListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.BeaconManager_TelemetryListenerImplementor
+EstimoteSdk.BeaconManager+ITelemetryListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.BeaconManager_TelemetryListenerImplementor
+EstimoteSdk.BeaconManager.ITelemetryListenerImplementor;mono.com.estimote.sdk.BeaconManager_TelemetryListenerImplementor
+mono.com.estimote.sdk.BeaconManager_TelemetryListenerImplementor;mono.com.estimote.sdk.BeaconManager_TelemetryListenerImplementor
+EstimoteSdk.Utils/IRestartCompletedListenerImplementor, Xamarin.Estimote.Android;mono.com.estimote.sdk.Utils_RestartCompletedListenerImplementor
+EstimoteSdk.Utils+IRestartCompletedListenerImplementor, Xamarin.Estimote.Android, Version=1.0.8.7, Culture=neutral, PublicKeyToken=null;mono.com.estimote.sdk.Utils_RestartCompletedListenerImplementor
+EstimoteSdk.Utils.IRestartCompletedListenerImplementor;mono.com.estimote.sdk.Utils_RestartCompletedListenerImplementor
+mono.com.estimote.sdk.Utils_RestartCompletedListenerImplementor;mono.com.estimote.sdk.Utils_RestartCompletedListenerImplementor

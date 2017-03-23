@@ -24,19 +24,24 @@ using CoreLocation;
 using Foundation;
 using CoreFoundation;
 using CoreBluetooth;
+using UIKit;
+using System.Timers;
+using System.Collections.Generic;
 [assembly: Xamarin.Forms.Dependency(typeof(Beacons.iOS.BeaconsIOS))]
 namespace Beacons.iOS
 {
-	public class BeaconsIOS : IBeacons
+	public class BeaconsIOS : UIViewController ,IBeacons
 	{
 		//CLBeaconManager beaconManager;
 		CLBeaconRegion region;
 		ObservableCollection<Beacon> beacons = new ObservableCollection<Beacon>();
+		//private List<MyBeacon> MyprivateBeacons = new List<MyBeacon>();
+
 		MYCBPeripheralManagerDelegate peripheralDelegate;
 		CBPeripheralManager peripheralManager;
 		CLLocationManager locatoinManager;
 		string IdRegion = "LIT";
-
+		string uuid = string.Empty;
 
 		public BeaconsIOS()
 		{
@@ -48,6 +53,7 @@ namespace Beacons.iOS
 
 		public ObservableCollection<Beacon> getBeacons(string uuid)
 		{
+			this.uuid = uuid;
 			var regionUUID = new NSUuid(uuid);
 			region = new CLBeaconRegion(regionUUID,IdRegion);
 			region.NotifyEntryStateOnDisplay = true;
@@ -62,21 +68,48 @@ namespace Beacons.iOS
 			};
 
 			locatoinManager.DidRangeBeacons += (sender, e) => {
-				if (e.Beacons.Length > 0) {
+				if (e.Beacons.Length > 0 ) {
+					beacons.Clear();
 					foreach (var beacon in e.Beacons) {
-						var MyBeacon = new Beacon(beacon.Minor.Int16Value, beacon.Major.Int16Value, beacon.ProximityUuid.ToString());
+						ushort minor = (ushort) beacon.Minor;
+						ushort major = (ushort) beacon.Major;
+						var MyBeacon = new Beacon(minor, major, beacon.ProximityUuid.ToString());
+						MyBeacon.setAccuracy(beacon.Accuracy);
 						beacons.Add(MyBeacon);
 					}
 				}			
 			};
 
-			//return beacons;
+			locatoinManager.RegionEntered += (sender, e) => SendEnteredNotfication();
+			locatoinManager.RegionLeft += (sender, e) => SendExitedNotfication();
+			locatoinManager.StartRangingBeacons(region);
+			locatoinManager.StartMonitoring(region);
 
-			beacons.Add(new Beacon(123, 9899, uuid));
-			beacons.Add(new Beacon(765, 529, uuid));
-			beacons.Add(new Beacon(871, 965, uuid));
-			beacons.Add(new Beacon(421, 8739, uuid));
 			return this.beacons;
+		}
+
+
+		private void SendEnteredNotfication() 
+		{
+			Console.WriteLine("Beacons na regiao");
+		} 
+
+		private void SendExitedNotfication()
+		{
+			Console.WriteLine("Sem Beacons na regiao");
+		}
+
+
+		public override void ViewDidLoad()
+		{
+			base.ViewDidLoad();
+			//Timer timer = new Timer(2*1000);
+			//timer.Elapsed += (sender, e) =>
+			//{
+			//	beacons.Clear();
+			//	getBeacons(uuid);
+			//};
+			getBeacons(uuid);
 		}
 	}
 
@@ -90,4 +123,22 @@ namespace Beacons.iOS
 				Console.WriteLine("Power OFF");
 		}
 	}
+
+
+	public class MyBeacon : CLBeacon {
+
+		public override bool Equals(object obj)
+		{
+			CLBeacon other = (CLBeacon) obj;
+			return (this.Minor == other.Minor) && 
+					(this.Major == other.Major) && 
+					(this.ProximityUuid.Equals(other.Proximity));
+		}
+
+		public override int GetHashCode()
+		{
+			return Minor.GetHashCode() + Major.GetHashCode() + Proximity.GetHashCode();
+		}
+	}
+
 }

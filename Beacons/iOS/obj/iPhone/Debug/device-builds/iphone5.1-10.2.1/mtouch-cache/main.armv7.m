@@ -7,13 +7,13 @@ extern void *mono_aot_module_System_info;
 extern void *mono_aot_module_System_Xml_info;
 extern void *mono_aot_module_System_Core_info;
 extern void *mono_aot_module_Mono_Dynamic_Interpreter_info;
-extern void *mono_aot_module_Xamarin_Forms_Platform_iOS_info;
+extern void *mono_aot_module_Beacons_info;
 extern void *mono_aot_module_Xamarin_Forms_Core_info;
 extern void *mono_aot_module_Xamarin_Forms_Platform_info;
+extern void *mono_aot_module_Xamarin_Forms_Platform_iOS_info;
 extern void *mono_aot_module_System_Net_Http_info;
 extern void *mono_aot_module_System_Runtime_Serialization_info;
 extern void *mono_aot_module_System_ServiceModel_Internals_info;
-extern void *mono_aot_module_Beacons_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
 
 void xamarin_register_modules_impl ()
@@ -25,13 +25,13 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_Xml_info);
 	mono_aot_register_module (mono_aot_module_System_Core_info);
 	mono_aot_register_module (mono_aot_module_Mono_Dynamic_Interpreter_info);
-	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Platform_iOS_info);
+	mono_aot_register_module (mono_aot_module_Beacons_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Core_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Platform_info);
+	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Platform_iOS_info);
 	mono_aot_register_module (mono_aot_module_System_Net_Http_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_Serialization_info);
 	mono_aot_register_module (mono_aot_module_System_ServiceModel_Internals_info);
-	mono_aot_register_module (mono_aot_module_Beacons_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
 
 }

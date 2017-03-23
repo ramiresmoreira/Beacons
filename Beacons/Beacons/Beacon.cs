@@ -19,21 +19,45 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
-
+using Xamarin.Forms;
 namespace Beacons
 {
-	public class Beacon
+	public class Beacon : ViewCell
 	{
+		
 
-		public Int16 Minor { get; set; }
-		public Int32 Major { get; set; }
+		public ushort Minor { get; set; }
+		public ushort Major { get; set; }
 		public string uuid { get; set; }
+		public double Accuracy {get;set;}
 
-		public Beacon(Int16 minor, Int16 major, string uuid)
+		public string precisao { 
+			get { return $"{Accuracy:N1}m"; }
+		}
+
+
+		public Beacon(ushort minor, ushort major, string uuid)
 		{
+			
 			this.Minor = minor;
 			this.Major = major;
 			this.uuid = uuid;
 		}
-	}
+
+		public override bool Equals(object obj)
+		{
+			Beacon other = (Beacon) obj;
+			return (Minor == other.Minor) && (Major == other.Major);
+		}
+
+		public void setAccuracy(double accuracy)
+		{
+			this.Accuracy = accuracy;
+		}
+
+		public override int GetHashCode()
+		{
+			return Minor.GetHashCode() + Major.GetHashCode() + uuid.GetHashCode();
+		}
+}
 }

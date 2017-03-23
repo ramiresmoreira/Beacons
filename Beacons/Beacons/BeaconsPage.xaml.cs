@@ -18,13 +18,15 @@
 //
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+using System;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
+
+
 namespace Beacons
 {
 	public partial class BeaconsPage : ContentPage
 	{
-
 		public ObservableCollection<Beacon> Beacons {get;set;}
 
 		string uuid = "B9407F30-F5F8-466E-AFF9-25556B57FE6D";
@@ -33,7 +35,9 @@ namespace Beacons
 		{
 			InitializeComponent();
 			Beacons = DependencyService.Get<IBeacons>().getBeacons(uuid);
+
 			BindingContext = this;
+
 		}
 	}
 }

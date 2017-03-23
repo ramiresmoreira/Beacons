@@ -4,6 +4,9 @@
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-feature android:name="android.hardware.bluetooth_le" android:required="false" />
   <application android:label="Beacons" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="Beacons.Droid" android:theme="@style/MyTheme" android:name="md5dc62b7ce2992b967e6a29823b01c0b0b.MainActivity">
       <intent-filter>
@@ -19,5 +22,17 @@
         <category android:name="mono.android.intent.category.SEPPUKU.br.com.mstelecom.beacons" />
       </intent-filter>
     </receiver>
+    <service android:name="com.estimote.sdk.service.BeaconService" android:exported="false" />
+    <service android:name="com.estimote.sdk.repackaged.dfu_v0_6_1.no.nordicsemi.android.dfu.DfuBaseService" />
+    <activity android:name="com.estimote.sdk.DefaultRequirementsCheckerCallback$Activity" android:theme="@style/Theme.Transparent" />
+    <receiver android:name="com.estimote.sdk.service.BeaconService$ScanAlarmBroadcastReceiver" />
+    <service android:name="com.estimote.sdk.connection.internal.DeviceConnectionProviderService" android:exported="false" />
+    <service android:name="com.estimote.sdk.service.BeaconService" android:exported="false" />
+    <service android:name="com.estimote.sdk.repackaged.dfu_v0_6_1.no.nordicsemi.android.dfu.DfuBaseService" />
+    <activity android:name="com.estimote.sdk.DefaultRequirementsCheckerCallback$Activity" android:theme="@style/Theme.Transparent" />
+    <receiver android:name="com.estimote.sdk.service.BeaconService$ScanAlarmBroadcastReceiver" />
+    <service android:name="com.estimote.sdk.connection.internal.DeviceConnectionProviderService" android:exported="false" />
   </application>
+  <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>

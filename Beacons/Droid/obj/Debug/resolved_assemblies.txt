@@ -18,6 +18,7 @@
 /Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/Xamarin.Estimote.Android.dll
 /Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/Beacons.dll
 /Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Droid/obj/Debug/android/assets/System.Net.Http.dll

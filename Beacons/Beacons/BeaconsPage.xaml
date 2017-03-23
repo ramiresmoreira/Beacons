@@ -5,11 +5,7 @@
 		<ListView ItemsSource = "{Binding Beacons}">
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<ViewCell>
-						<StackLayout Padding="10">
-							<Label Text="{Binding Minor}" />
-						</StackLayout>
-					</ViewCell>
+					<TextCell Text="{Binding Minor}" Detail="{Binding precisao}" />
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</ListView>
