@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Beacons</string>
 	<key>CFBundleIdentifier</key>
-	<string>br.com.mstelecom.Tipcalculators</string>
+	<string>br.com.mstelecom.Beacons</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

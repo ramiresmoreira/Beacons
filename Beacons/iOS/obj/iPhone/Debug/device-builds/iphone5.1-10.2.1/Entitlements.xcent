@@ -5,7 +5,7 @@
 	<key>get-task-allow</key>
 	<true/>
 	<key>application-identifier</key>
-	<string>69TTHNQU35.br.com.mstelecom.Tipcalculators</string>
+	<string>69TTHNQU35.br.com.mstelecom.Beacons</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>69TTHNQU35</string>
 </dict>

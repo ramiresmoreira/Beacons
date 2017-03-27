@@ -19,21 +19,25 @@
 //  You should have received a copy of the GNU General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Beacons.Droid;
 using EstimoteSdk;
 using Java.Util.Concurrent;
+using Android.App;
 
 [assembly: Xamarin.Forms.Dependency(typeof(BeaconsDroid))]
+
 namespace Beacons.Droid
+                 
 {
-	public class BeaconsDroid : MainActivity, IBeacons, BeaconManager.IServiceReadyCallback
+	public class BeaconsDroid : Activity, IBeacons, BeaconManager.IServiceReadyCallback
 	{
 		static readonly int NOTIFICATION_ID = 123321;
 		BeaconManager beaconManager;
 		Region region;
+		new 
 		ObservableCollection<Beacon> Beacons = new ObservableCollection<Beacon>();
+		//List<Beacon> Beacons = new List<Beacon>();
 
 		public BeaconsDroid()
 		{
@@ -43,23 +47,33 @@ namespace Beacons.Droid
 		{
 			var beacon = new Beacon(123, 9899, uuid);
 			beacon.setAccuracy(1.2);
-
 			var beacon2 = new Beacon(33, 785, uuid);
 			beacon2.setAccuracy(0.6);
-
 			Beacons.Add(beacon);
-			//Beacons.Add(new Beacon(765, 529, uuid));
-			//Beacons.Add(new Beacon(871, 965, uuid));
-			//Beacons.Add(new Beacon(421, 8739, uuid));
+			Beacons.Add(beacon2);
 			return this.Beacons;
 		}
 
-		protected override void OnCreate(Android.OS.Bundle bundle)
+
+		//private void googleBeacons() {
+
+		//	BluetoothAdapter adapter;
+		//	bool scanning;
+		//	Handler mHandler = new Handler();
+		//	long SCAN_PERIOD = 10000;
+		//	mHandler.PostDelayed(()=> {
+		//		scanning = false;
+		//		adapter.StopLeScan();
+		//	} , SCAN_PERIOD);
+		//}
+
+
+		protected override void OnCreate(Android.OS.Bundle savedInstanceState)
 		{
-			base.OnCreate(bundle);
+			base.OnCreate(savedInstanceState);
 			SetContentView(Resource.Layout.notification_media_action);
 
-			region = this.ge
+			//region = 
 			beaconManager = new BeaconManager(this);
 			beaconManager.SetBackgroundScanPeriod(TimeUnit.Seconds.ToMillis(1), 0);
 			beaconManager.EnteredRegion += (sender, e) =>
@@ -90,5 +104,6 @@ namespace Beacons.Droid
 			beaconManager.Disconnect();
 			base.OnDestroy();
 		}
+
 	}
 }

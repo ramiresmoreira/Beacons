@@ -21,15 +21,21 @@
 using System;
 using Xamarin.Forms;
 using System.Collections.ObjectModel;
+using System.Collections.Generic;
 
 
 namespace Beacons
 {
 	public partial class BeaconsPage : ContentPage
 	{
-		public ObservableCollection<Beacon> Beacons {get;set;}
+		public ObservableCollection<Beacon> Beacons { get; set; }
 
-		string uuid = "B9407F30-F5F8-466E-AFF9-25556B57FE6D";
+
+
+		//public ObservableCollection<Beacon> previousBeacons { get; set; }
+
+		public string uuid = "B9407F30-F5F8-466E-AFF9-25556B57FE6D";
+		//public string uuid = "8428B514-3A3C-4458-ADCF-E3FAAC5107B9";
 
 		public BeaconsPage()
 		{
@@ -40,4 +46,5 @@ namespace Beacons
 
 		}
 	}
+
 }

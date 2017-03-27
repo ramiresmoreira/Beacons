@@ -251,7 +251,7 @@ Lme_4:
 	.no_dead_strip Beacons_BeaconsPage__ctor
 Beacons_BeaconsPage__ctor:
 .file 3 "/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Beacons/BeaconsPage.xaml.cs"
-.loc 3 32 0 prologue_end
+.loc 3 37 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,6,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_Beacons_got - . + 84
@@ -263,19 +263,19 @@ Beacons_BeaconsPage__ctor:
 bl _p_8
 
 	.byte 20,0,157,229
-.loc 3 34 0
+.loc 3 40 0
 
 	.byte 0,224,157,229,152,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,10,0,160,225
 bl _p_9
-.loc 3 35 0
+.loc 3 41 0
 
 	.byte 0,224,157,229,184,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-.loc 3 36 0
+.loc 3 42 0
 
 	.byte 0,224,157,229,204,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,228,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
 bl _p_10
-.loc 3 37 0
+.loc 3 43 0
 
 	.byte 0,224,157,229,0,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,160,227,0,224,157,229
 	.byte 28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,0,159,229,0,0,0,234
@@ -290,12 +290,12 @@ bl _p_11
 	.byte 8,128,159,231,15,224,160,225,28,240,18,229,8,0,141,229,0,224,157,229,176,225,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,8,16,157,229,10,0,160,225
 bl _p_12
-.loc 3 39 0
+.loc 3 45 0
 
 	.byte 0,224,157,229,208,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,10,0,160,225,0,224,157,229
 	.byte 236,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,10,16,160,225
 bl _p_13
-.loc 3 41 0
+.loc 3 47 0
 
 	.byte 0,224,157,229,12,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,32,226,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,6,223,141,226,0,5,189,232,128,128,189,232
@@ -305,7 +305,7 @@ Lme_5:
 	.align 2
 	.no_dead_strip Beacons_BeaconsPage_get_Beacons
 Beacons_BeaconsPage_get_Beacons:
-.loc 3 30 0 prologue_end
+.loc 3 31 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,64,1,45,233,4,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_Beacons_got - . + 100
@@ -319,7 +319,7 @@ Lme_6:
 	.align 2
 	.no_dead_strip Beacons_BeaconsPage_set_Beacons_System_Collections_ObjectModel_ObservableCollection_1_Beacons_Beacon
 Beacons_BeaconsPage_set_Beacons_System_Collections_ObjectModel_ObservableCollection_1_Beacons_Beacon:
-.loc 3 30 0 prologue_end
+.loc 3 31 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
 	.long mono_aot_Beacons_got - . + 104
@@ -632,88 +632,77 @@ Lme_15:
 Beacons_Beacon_GetHashCode:
 .loc 5 59 0 prologue_end
 
-	.byte 128,64,45,233,13,112,160,225,64,5,45,233,15,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,64,5,45,233,23,223,77,226,0,160,160,225,0,0,159,229,0,0,0,234
 	.long mono_aot_Beacons_got - . + 184
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,15,160,227,184,0,205,225,0,15,160,227
-	.byte 186,0,205,225,0,111,160,227,0,224,157,229,84,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229
-	.byte 0,224,158,229,0,224,157,229,112,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 186,0,205,225,0,43,159,237,1,0,0,234,0,0,0,0,0,0,0,0,3,43,141,237,0,111,160,227,0,224,157,229
+	.byte 104,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,132,224,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225
 .loc 5 60 0
 
-	.byte 0,224,157,229,132,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,156,224,158,229
+	.byte 0,224,157,229,152,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229,176,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
 bl _p_22
 
-	.byte 48,0,141,229,0,8,160,225,32,8,160,225,0,224,157,229,196,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 48,0,157,229,184,0,205,225,2,15,141,226,44,0,141,229,0,224,157,229,232,224,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,44,0,157,229
+	.byte 80,0,141,229,0,8,160,225,32,8,160,225,0,224,157,229,216,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 80,0,157,229,184,0,205,225,2,15,141,226,76,0,141,229,0,224,157,229,252,224,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,76,0,157,229
 bl _p_26
 
-	.byte 28,0,141,229,0,224,157,229,8,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229
-	.byte 32,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+	.byte 60,0,141,229,0,224,157,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,224,157,229
+	.byte 52,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
 bl _p_23
 
-	.byte 40,0,141,229,0,8,160,225,32,8,160,225,0,224,157,229,72,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-	.byte 40,0,157,229,186,0,205,225,160,2,141,226,36,0,141,229,0,224,157,229,108,225,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,36,0,157,229
+	.byte 72,0,141,229,0,8,160,225,32,8,160,225,0,224,157,229,92,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 72,0,157,229,186,0,205,225,160,2,141,226,68,0,141,229,0,224,157,229,128,225,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,68,0,157,229
 bl _p_26
 
-	.byte 32,0,141,229,0,224,157,229,140,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,28,0,157,229,32,16,157,229
-	.byte 1,0,128,224,16,0,141,229,10,0,160,225,0,224,157,229,180,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 64,0,141,229,0,224,157,229,160,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,60,0,157,229,64,16,157,229
+	.byte 1,0,128,224,48,0,141,229,10,0,160,225,0,224,157,229,200,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225
 	.byte 10,0,160,225
 bl _p_27
 
-	.byte 24,0,141,229,0,224,157,229,212,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,24,16,157,229,1,0,160,225
-	.byte 0,16,145,229,15,224,160,225,40,240,145,229,20,0,141,229,0,224,157,229,0,226,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,16,0,157,229,20,16,157,229,1,0,128,224,0,96,160,225
+	.byte 56,0,141,229,0,224,157,229,232,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,56,16,157,229,1,0,160,225
+	.byte 0,16,145,229,15,224,160,225,40,240,145,229,52,0,141,229,0,224,157,229,20,226,158,229,0,0,94,227,0,224,158,21
+	.byte 0,0,160,225,48,0,157,229,52,16,157,229,1,0,128,224,24,0,141,229,10,0,160,225,0,224,157,229,60,226,158,229
+	.byte 0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225
+bl _p_20
+
+	.byte 18,11,65,236,10,43,141,237,0,224,157,229,96,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,43,157,237
+	.byte 3,43,141,237,3,15,141,226,32,0,141,229,0,224,157,229,132,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225
+	.byte 32,0,157,229
+bl _p_28
+
+	.byte 28,0,141,229,0,224,157,229,164,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,24,0,157,229,28,16,157,229
+	.byte 1,0,128,224,0,96,160,225
 .loc 5 61 0
 
-	.byte 0,224,157,229,36,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,6,0,160,225,0,224,157,229
-	.byte 64,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,15,223,141,226,64,5,189,232,128,128,189,232
+	.byte 0,224,157,229,200,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,6,0,160,225,0,224,157,229
+	.byte 228,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,23,223,141,226,64,5,189,232,128,128,189,232
 
 Lme_16:
 .text
 	.align 2
-	.no_dead_strip Beacons_BeconsCell__ctor
-Beacons_BeconsCell__ctor:
-.file 6 "/Users/ramiresmoreira/OneDrive/Projects/Beacons/Beacons/Beacons/BeconsCell.cs"
-.loc 6 27 0 prologue_end
-
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 188
-	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,64,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,92,224,158,229,0,0,94,227,0,224,158,21
-	.byte 0,0,160,225,8,0,157,229
-bl _p_15
-.loc 6 28 0
-
-	.byte 0,224,157,229,120,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225
-.loc 6 29 0
-
-	.byte 0,224,157,229,140,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,160,224,158,229,0,0,94,227
-	.byte 0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
-
-Lme_17:
-.text
-	.align 2
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.128/src/mono/mcs/class/corlib/System/Array.cs"
-.loc 7 78 0 prologue_end
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/10.4.0.128/src/mono/mcs/class/corlib/System/Array.cs"
+.loc 6 78 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,15,223,77,226,8,128,141,229,28,0,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 192
+	.long mono_aot_Beacons_got - . + 188
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,28,0,157,229,48,0,141,229,3,15,141,226,0,15,160,227,0,15,160,227,12,0,141,229,0,15,160,227
 	.byte 16,0,141,229,3,15,141,226,44,0,141,229,8,0,157,229
-bl _p_28
+bl _p_29
 
 	.byte 0,32,160,225,44,0,157,229,48,16,157,229,2,128,160,225
-bl _p_29
+bl _p_30
 
 	.byte 3,15,141,226,5,15,141,226,12,0,157,229,20,0,141,229,16,0,157,229,24,0,141,229,0,224,157,229,208,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229
-bl _p_28
+bl _p_29
 
 	.byte 4,31,160,227,4,31,160,227
 bl _p_3
@@ -724,119 +713,119 @@ bl _p_8
 	.byte 32,0,157,229,36,16,157,229,40,32,157,229,1,31,129,226,24,32,157,229,0,32,129,229,0,224,157,229,52,225,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,15,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_19:
+Lme_18:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
 System_Array_InternalArray__Insert_T_REF_int_T_REF:
-.loc 7 160 0 prologue_end
+.loc 6 160 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,7,223,77,226,8,128,141,229,12,0,141,229,16,16,141,229,20,32,141,229
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 196
+	.long mono_aot_Beacons_got - . + 192
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,76,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,104,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,190,5,15,227,1,0,64,227,190,5,15,227,1,0,64,227
-bl _p_30
+bl _p_31
 
 	.byte 0,16,160,225,127,1,0,227,0,2,64,227,127,1,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_31
+bl _p_32
 
 	.byte 0,224,157,229,172,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,7,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_1a:
+Lme_19:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
 System_Array_InternalArray__RemoveAt_int:
-.loc 7 165 0 prologue_end
+.loc 6 165 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,5,223,77,226,8,0,141,229,12,16,141,229,0,0,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 200
+	.long mono_aot_Beacons_got - . + 196
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,68,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,96,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,190,5,15,227,1,0,64,227,190,5,15,227,1,0,64,227
-bl _p_30
+bl _p_31
 
 	.byte 0,16,160,225,127,1,0,227,0,2,64,227,127,1,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_31
+bl _p_32
 
 	.byte 0,224,157,229,164,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_1b:
+Lme_1a:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_REF_T_REF
 System_Array_InternalArray__IndexOf_T_REF_T_REF:
-.loc 7 170 0 prologue_end
+.loc 6 170 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,5,45,233,15,223,77,226,12,128,141,229,0,96,160,225,1,160,160,225,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_Beacons_got - . + 204
+	.long mono_aot_Beacons_got - . + 200
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,95,160,227,0,79,160,227,0,15,160,227
 	.byte 8,0,141,229,0,224,157,229,88,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229
 	.byte 0,224,157,229,116,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,0,0,150,229,22,0,208,229
 	.byte 48,0,141,229,0,224,157,229,152,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,157,229,64,19,160,227
 	.byte 64,3,80,227,23,0,0,218
-.loc 7 171 0
+.loc 6 171 0
 
 	.byte 0,224,157,229,188,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,250,5,15,227,1,0,64,227,250,5,15,227
 	.byte 1,0,64,227
-bl _p_30
-bl _p_32
+bl _p_31
+bl _p_33
 
 	.byte 48,0,141,229,0,224,157,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,16,157,229,140,1,0,227
 	.byte 0,2,64,227,140,1,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_31
-.loc 7 173 0
+bl _p_32
+.loc 6 173 0
 
 	.byte 0,224,157,229,28,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,12,0,150,229,48,0,141,229
 	.byte 0,224,157,229,60,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,157,229,0,80,160,225
-.loc 7 174 0
+.loc 6 174 0
 
 	.byte 0,224,157,229,88,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,79,160,227,127,0,0,234
-.loc 7 176 0
+.loc 6 176 0
 
 	.byte 0,224,157,229,116,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,4,0,160,225,2,15,141,226
 	.byte 12,0,157,229
-bl _p_33
+bl _p_34
 
 	.byte 4,1,160,225,0,0,134,224,4,15,128,226,0,0,144,229,8,0,141,229
-.loc 7 177 0
+.loc 6 177 0
 
 	.byte 0,224,157,229,176,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,10,0,160,225,0,15,90,227,42,0,0,26
-.loc 7 178 0
+.loc 6 178 0
 
 	.byte 0,224,157,229,208,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,15,80,227,28,0,0,26
-.loc 7 179 0
+.loc 6 179 0
 
 	.byte 0,224,157,229,240,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,24,64,141,229,6,0,160,225,0,15,160,227
 	.byte 8,0,150,229,16,0,141,229,0,15,80,227,3,0,0,10,16,0,157,229,4,0,144,229,20,0,141,229,1,0,0,234
 	.byte 0,15,160,227,20,0,141,229,20,0,157,229,20,0,141,229,0,224,157,229,64,226,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,24,0,157,229,20,16,157,229,1,0,128,224,104,0,0,234
-.loc 7 181 0
+.loc 6 181 0
 
 	.byte 0,224,157,229,100,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,51,0,0,234
-.loc 7 183 0
+.loc 6 183 0
 
 	.byte 0,224,157,229,124,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,2,15,141,226,10,0,160,225,8,32,157,229
 	.byte 2,0,160,225,10,16,160,225,0,32,146,229,15,224,160,225,48,240,146,229,255,0,0,226,48,0,141,229,0,224,157,229
 	.byte 184,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,48,0,157,229,0,15,80,227,28,0,0,10
-.loc 7 186 0
+.loc 6 186 0
 
 	.byte 0,224,157,229,216,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,36,64,141,229,6,0,160,225,0,15,160,227
 	.byte 8,0,150,229,28,0,141,229,0,15,80,227,3,0,0,10,28,0,157,229,4,0,144,229,32,0,141,229,1,0,0,234
 	.byte 0,15,160,227,32,0,141,229,32,0,157,229,32,0,141,229,0,224,157,229,40,227,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,36,0,157,229,32,16,157,229,1,0,128,224,46,0,0,234
-.loc 7 174 0
+.loc 6 174 0
 
 	.byte 4,224,157,229,0,224,158,229,0,224,157,229,84,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,0,160,225
 	.byte 64,3,132,226,0,64,160,225,4,224,157,229,0,224,158,229,0,224,157,229,124,227,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,4,0,160,225,5,0,160,225,5,0,84,225,116,255,255,186
-.loc 7 191 0
+.loc 6 191 0
 
 	.byte 0,224,157,229,160,227,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,0,15,160,227,8,0,150,229
 	.byte 40,0,141,229,0,15,80,227,3,0,0,10,40,0,157,229,4,0,144,229,44,0,141,229,1,0,0,234,0,15,160,227
@@ -844,87 +833,87 @@ bl _p_33
 	.byte 44,0,157,229,64,3,64,226,0,224,157,229,8,228,158,229,0,0,94,227,0,224,158,21,0,0,160,225,15,223,141,226
 	.byte 112,5,189,232,128,128,189,232
 
-Lme_1c:
+Lme_1b:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__get_Item_T_REF_int
 System_Array_InternalArray__get_Item_T_REF_int:
-.loc 7 197 0 prologue_end
+.loc 6 197 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,9,223,77,226,12,128,141,229,16,0,141,229,20,16,141,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_Beacons_got - . + 208
+	.long mono_aot_Beacons_got - . + 204
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,15,160,227,8,0,141,229,0,224,157,229
 	.byte 80,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,108,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,20,0,157,229,24,0,141,229,16,0,157,229,12,0,144,229,28,0,141,229
 	.byte 0,224,157,229,148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,24,0,157,229,28,16,157,229,1,0,80,225
 	.byte 14,0,0,58
-.loc 7 198 0
+.loc 6 198 0
 
 	.byte 0,224,157,229,184,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,144,6,2,227,144,6,2,227
-bl _p_30
+bl _p_31
 
 	.byte 0,16,160,225,91,0,0,227,0,2,64,227,91,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_31
-.loc 7 201 0
+bl _p_32
+.loc 6 201 0
 
 	.byte 0,224,157,229,244,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,16,0,157,229,24,0,141,229,20,0,157,229
 	.byte 28,0,141,229,2,15,141,226,12,0,157,229
-bl _p_34
+bl _p_35
 
 	.byte 0,32,160,225,24,0,157,229,28,16,157,229,1,17,160,225,1,0,128,224,4,15,128,226,0,0,144,229,8,0,141,229
-.loc 7 202 0
+.loc 6 202 0
 
 	.byte 0,224,157,229,68,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,8,0,157,229,0,224,157,229,92,225,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,9,223,141,226,0,1,189,232,128,128,189,232
 
-Lme_1d:
+Lme_1c:
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalArray__set_Item_T_REF_int_T_REF
 System_Array_InternalArray__set_Item_T_REF_int_T_REF:
-.loc 7 207 0 prologue_end
+.loc 6 207 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,8,223,77,226,8,128,141,229,0,96,160,225,1,160,160,225,20,32,141,229
 	.byte 0,0,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 212
+	.long mono_aot_Beacons_got - . + 208
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,95,160,227,0,224,157,229,80,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,108,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,10,0,160,225,6,0,160,225,12,0,150,229,24,0,141,229,0,224,157,229,144,224,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,24,0,157,229,0,0,90,225,14,0,0,58
-.loc 7 208 0
+.loc 6 208 0
 
 	.byte 0,224,157,229,176,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,144,6,2,227,144,6,2,227
-bl _p_30
+bl _p_31
 
 	.byte 0,16,160,225,91,0,0,227,0,2,64,227,91,0,0,227,0,2,64,227
 bl _mono_create_corlib_exception_1
-bl _p_31
-.loc 7 210 0
+bl _p_32
+.loc 6 210 0
 
 	.byte 0,224,157,229,236,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,64,160,225,6,176,160,225,0,15,86,227
 	.byte 23,0,0,10,0,0,148,229,12,0,141,229,22,0,208,229,64,3,80,227,17,0,0,26,12,0,157,229,0,0,144,229
 	.byte 4,0,144,229,16,0,141,229,28,0,144,229,0,16,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 216
+	.long mono_aot_Beacons_got - . + 212
 	.byte 1,16,159,231,1,0,80,225,7,0,0,26,0,16,159,229,0,0,0,234
-	.long mono_aot_Beacons_got - . + 220
+	.long mono_aot_Beacons_got - . + 216
 	.byte 1,16,159,231,16,0,157,229,1,0,80,225,0,0,0,10,0,191,160,227,11,0,160,225,11,80,160,225
-.loc 7 211 0
+.loc 6 211 0
 
 	.byte 0,224,157,229,120,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,11,0,160,225,0,15,91,227,18,0,0,10
-.loc 7 212 0
+.loc 6 212 0
 
 	.byte 0,224,157,229,152,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,5,0,160,225,10,0,160,225,20,32,157,229
 	.byte 5,0,160,225,10,16,160,225,0,48,149,229,15,224,160,225,132,240,147,229
-.loc 7 213 0
+.loc 6 213 0
 
 	.byte 0,224,157,229,204,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,22,0,0,234
-.loc 7 215 0
+.loc 6 215 0
 
 	.byte 0,224,157,229,228,225,158,229,0,0,94,227,0,224,158,21,0,0,160,225,6,0,160,225,10,0,160,225,5,15,141,226
 	.byte 8,0,157,229
-bl _p_35
+bl _p_36
 
 	.byte 10,1,160,225,0,0,134,224,4,15,128,226,20,16,157,229,24,16,141,229,0,16,128,229
 bl _p_8
@@ -932,9 +921,9 @@ bl _p_8
 	.byte 24,0,157,229,0,224,157,229,44,226,158,229,0,0,94,227,0,224,158,21,0,0,160,225,0,224,157,229,64,226,158,229
 	.byte 0,0,94,227,0,224,158,21,0,0,160,225,8,223,141,226,112,13,189,232,128,128,189,232
 
-Lme_1e:
+Lme_1d:
 .text
-ut_31:
+ut_30:
 
 	.byte 8,0,128,226
 	b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
@@ -944,30 +933,30 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_31
+LDIFF_SYM3=ut_end - ut_30
 	.long LDIFF_SYM3
 .text
 	.align 2
 	.no_dead_strip System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-.loc 7 239 0 prologue_end
+.loc 6 239 0 prologue_end
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,9,223,77,226,8,128,141,229,12,0,141,229,16,16,141,229,0,0,159,229
 	.byte 0,0,0,234
-	.long mono_aot_Beacons_got - . + 224
+	.long mono_aot_Beacons_got - . + 220
 	.byte 0,0,159,231,0,0,141,229,0,224,157,229,0,224,158,229,4,224,141,229,0,224,157,229,72,224,158,229,0,0,94,227
 	.byte 0,224,158,21,0,0,160,225,4,224,157,229,0,224,158,229,0,224,157,229,100,224,158,229,0,0,94,227,0,224,158,21
 	.byte 0,0,160,225,12,0,157,229,16,16,157,229,24,16,141,229,0,16,128,229,0,16,160,225
 bl _p_8
 
 	.byte 24,0,157,229
-.loc 7 240 0
+.loc 6 240 0
 
 	.byte 0,224,157,229,148,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,12,0,157,229,64,19,224,227,64,19,224,227
 	.byte 4,16,128,229,0,224,157,229,184,224,158,229,0,0,94,227,0,224,158,21,0,0,160,225,9,223,141,226,0,1,189,232
 	.byte 128,128,189,232
 
-Lme_1f:
+Lme_1e:
 .text
 	.align 3
 jit_code_end:
@@ -1000,7 +989,6 @@ bl Beacons_Beacon_get_precisao
 bl Beacons_Beacon_Equals_object
 bl Beacons_Beacon_setAccuracy_double
 bl Beacons_Beacon_GetHashCode
-bl Beacons_BeconsCell__ctor
 bl method_addresses
 bl System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 bl System_Array_InternalArray__Insert_T_REF_int_T_REF
@@ -1015,14 +1003,14 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 31
+	.long 30
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_31
+bl ut_30
 
 	.long 0
 .section __TEXT, __const
@@ -1045,8 +1033,7 @@ unwind_info:
 	.byte 44,12,13,0,68,14,8,135,2,72,14,24,132,6,133,5,136,4,139,3,142,1,68,14,64,3,64,2,10,68,14,24
 	.byte 68,8,4,8,5,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72,14,16,136,4,139,3,142,1,68
 	.byte 14,72,68,13,11,2,212,10,68,13,13,14,16,68,8,8,8,11,14,8,68,11,40,12,13,0,68,14,8,135,2,72
-	.byte 14,20,134,5,136,4,138,3,142,1,68,14,80,3,56,2,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,31
-	.byte 12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,152,10,68,14,12,68,8,8,14,8,68,11,32
+	.byte 14,20,134,5,136,4,138,3,142,1,68,14,112,3,220,2,10,68,14,20,68,8,6,8,8,8,10,14,8,68,11,32
 	.byte 12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,72,3,44,1,10,68,14,12,68,8,8,14,8,68,11
 	.byte 31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,164,10,68,14,12,68,8,8,14,8,68,11
 	.byte 31,12,13,0,68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,156,10,68,14,12,68,8,8,14,8,68,11
@@ -1066,211 +1053,217 @@ plt_Xamarin_Forms_Application__ctor:
 _p_1:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 240,686
+	.long mono_aot_Beacons_got - . + 236,682
 	.no_dead_strip plt_Beacons_App_InitializeComponent
 plt_Beacons_App_InitializeComponent:
 _p_2:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 244,691
+	.long mono_aot_Beacons_got - . + 240,687
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 248,696
+	.long mono_aot_Beacons_got - . + 244,692
 	.no_dead_strip plt_Beacons_BeaconsPage__ctor
 plt_Beacons_BeaconsPage__ctor:
 _p_4:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 252,704
+	.long mono_aot_Beacons_got - . + 248,700
 	.no_dead_strip plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page
 plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page:
 _p_5:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 256,709
+	.long mono_aot_Beacons_got - . + 252,705
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_6:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 260,714
+	.long mono_aot_Beacons_got - . + 256,710
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Beacons_App_Beacons_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Beacons_App_Beacons_App_System_Type:
 _p_7:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 264,719
+	.long mono_aot_Beacons_got - . + 260,715
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
 plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_8:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 268,731
+	.long mono_aot_Beacons_got - . + 264,727
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_9:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 272,738
+	.long mono_aot_Beacons_got - . + 268,734
 	.no_dead_strip plt_Beacons_BeaconsPage_InitializeComponent
 plt_Beacons_BeaconsPage_InitializeComponent:
 _p_10:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 276,743
+	.long mono_aot_Beacons_got - . + 272,739
 	.no_dead_strip plt_Xamarin_Forms_DependencyService_Get_Beacons_IBeacons_Xamarin_Forms_DependencyFetchTarget
 plt_Xamarin_Forms_DependencyService_Get_Beacons_IBeacons_Xamarin_Forms_DependencyFetchTarget:
 _p_11:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 280,748
+	.long mono_aot_Beacons_got - . + 276,744
 	.no_dead_strip plt_Beacons_BeaconsPage_set_Beacons_System_Collections_ObjectModel_ObservableCollection_1_Beacons_Beacon
 plt_Beacons_BeaconsPage_set_Beacons_System_Collections_ObjectModel_ObservableCollection_1_Beacons_Beacon:
 _p_12:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 284,760
+	.long mono_aot_Beacons_got - . + 280,756
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_13:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 288,765
+	.long mono_aot_Beacons_got - . + 284,761
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Beacons_BeaconsPage_Beacons_BeaconsPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_Beacons_BeaconsPage_Beacons_BeaconsPage_System_Type:
 _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 292,770
+	.long mono_aot_Beacons_got - . + 288,766
 	.no_dead_strip plt_Xamarin_Forms_ViewCell__ctor
 plt_Xamarin_Forms_ViewCell__ctor:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 296,782
+	.long mono_aot_Beacons_got - . + 292,778
 	.no_dead_strip plt_Beacons_Beacon_set_Minor_uint16
 plt_Beacons_Beacon_set_Minor_uint16:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 300,787
+	.long mono_aot_Beacons_got - . + 296,783
 	.no_dead_strip plt_Beacons_Beacon_set_Major_uint16
 plt_Beacons_Beacon_set_Major_uint16:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 304,792
+	.long mono_aot_Beacons_got - . + 300,788
 	.no_dead_strip plt_Beacons_Beacon_set_uuid_string
 plt_Beacons_Beacon_set_uuid_string:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 308,797
+	.long mono_aot_Beacons_got - . + 304,793
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 312,802
+	.long mono_aot_Beacons_got - . + 308,798
 	.no_dead_strip plt_Beacons_Beacon_get_Accuracy
 plt_Beacons_Beacon_get_Accuracy:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 316,810
+	.long mono_aot_Beacons_got - . + 312,806
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 320,815
+	.long mono_aot_Beacons_got - . + 316,811
 	.no_dead_strip plt_Beacons_Beacon_get_Minor
 plt_Beacons_Beacon_get_Minor:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 324,818
+	.long mono_aot_Beacons_got - . + 320,814
 	.no_dead_strip plt_Beacons_Beacon_get_Major
 plt_Beacons_Beacon_get_Major:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 328,823
+	.long mono_aot_Beacons_got - . + 324,819
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 332,828
+	.long mono_aot_Beacons_got - . + 328,824
 	.no_dead_strip plt_Beacons_Beacon_set_Accuracy_double
 plt_Beacons_Beacon_set_Accuracy_double:
 _p_25:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 336,863
+	.long mono_aot_Beacons_got - . + 332,859
 	.no_dead_strip plt_uint16_GetHashCode
 plt_uint16_GetHashCode:
 _p_26:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 340,868
+	.long mono_aot_Beacons_got - . + 336,864
 	.no_dead_strip plt_Beacons_Beacon_get_uuid
 plt_Beacons_Beacon_get_uuid:
 _p_27:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 344,871
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
+	.long mono_aot_Beacons_got - . + 340,867
+	.no_dead_strip plt_double_GetHashCode
+plt_double_GetHashCode:
 _p_28:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 348,900
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+	.long mono_aot_Beacons_got - . + 344,872
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
 _p_29:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 352,908
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+	.long mono_aot_Beacons_got - . + 348,899
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_30:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 356,926
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+	.long mono_aot_Beacons_got - . + 352,907
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_31:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 360,955
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
+	.long mono_aot_Beacons_got - . + 356,925
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
 _p_32:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 364,983
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
+	.long mono_aot_Beacons_got - . + 360,954
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
 _p_33:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 368,1003
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
+	.long mono_aot_Beacons_got - . + 364,982
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
 _p_34:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 372,1044
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
+	.long mono_aot_Beacons_got - . + 368,1002
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
 _p_35:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long mono_aot_Beacons_got - . + 376,1085
+	.long mono_aot_Beacons_got - . + 372,1043
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_36:
+
+	.byte 0,192,159,229,12,240,159,231
+	.long mono_aot_Beacons_got - . + 376,1084
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -1305,7 +1298,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "60A8C558-CB01-4711-B661-BA228530852F"
+	.asciz "4CEBB37D-8DAF-41D1-8F8B-59F2819CBE7F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -1382,13 +1375,13 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampoline_addresses
 
-	.long 60,384,36,32,70,923871743,0,4640
-	.long 128,4,4,10,0,15,5520,872
-	.long 544,288,0,432,512,336,0,224
-	.long 72,0,0,0,0,0,0,0
+	.long 59,384,37,31,70,923871743,0,4479
+	.long 128,4,4,10,0,15,5352,864
+	.long 536,280,0,424,504,328,0,216
+	.long 64,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 137,209,249,123,93,126,120,95,196,58,2,104,207,164,150,164
+	.byte 171,29,109,125,22,226,213,100,2,111,246,255,66,37,34,82
 	.globl _mono_aot_module_Beacons_info
 	.align 2
 _mono_aot_module_Beacons_info:
@@ -6127,7 +6120,7 @@ LDIFF_SYM837=LTDIE_125 - Ldebug_info_start
 	.asciz "Beacons.BeaconsPage:.ctor"
 	.asciz "Beacons_BeaconsPage__ctor"
 
-	.byte 3,32
+	.byte 3,37
 	.long Beacons_BeaconsPage__ctor
 	.long Lme_5
 
@@ -6161,7 +6154,7 @@ Lfde5_end:
 	.asciz "Beacons.BeaconsPage:get_Beacons"
 	.asciz "Beacons_BeaconsPage_get_Beacons"
 
-	.byte 3,30
+	.byte 3,31
 	.long Beacons_BeaconsPage_get_Beacons
 	.long Lme_6
 
@@ -6199,7 +6192,7 @@ Lfde6_end:
 	.asciz "Beacons.BeaconsPage:set_Beacons"
 	.asciz "Beacons_BeaconsPage_set_Beacons_System_Collections_ObjectModel_ObservableCollection_1_Beacons_Beacon"
 
-	.byte 3,30
+	.byte 3,31
 	.long Beacons_BeaconsPage_set_Beacons_System_Collections_ObjectModel_ObservableCollection_1_Beacons_Beacon
 	.long Lme_7
 
@@ -7199,23 +7192,28 @@ LDIFF_SYM983=LDIE_U2 - Ldebug_info_start
 	.byte 2,125,10,11
 	.asciz "V_2"
 
-LDIFF_SYM984=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM984=LDIE_R8 - Ldebug_info_start
 	.long LDIFF_SYM984
+	.byte 2,125,12,11
+	.asciz "V_3"
+
+LDIFF_SYM985=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 1,86,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM985=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM985
+LDIFF_SYM986=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM986
 Lfde21_start:
 
 	.long 0
 	.align 2
 	.long Beacons_Beacon_GetHashCode
 
-LDIFF_SYM986=Lme_16 - Beacons_Beacon_GetHashCode
-	.long LDIFF_SYM986
-	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,80,3,56,2,10,68,14,20,68,8,6,8,8,8
+LDIFF_SYM987=Lme_16 - Beacons_Beacon_GetHashCode
+	.long LDIFF_SYM987
+	.byte 68,14,8,135,2,72,14,20,134,5,136,4,138,3,142,1,68,14,112,3,220,2,10,68,14,20,68,8,6,8,8,8
 	.byte 10,14,8,68,11
 	.align 2
 Lfde21_end:
@@ -7224,111 +7222,56 @@ Lfde21_end:
 LTDIE_145:
 
 	.byte 5
-	.asciz "Beacons_BeconsCell"
-
-	.byte 160,1,16
-LDIFF_SYM987=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM987
-	.byte 2,35,0,0,7
-	.asciz "Beacons_BeconsCell"
-
-LDIFF_SYM988=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM988
-LTDIE_145_POINTER:
-
-	.byte 13
-LDIFF_SYM989=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM989
-LTDIE_145_REFERENCE:
-
-	.byte 14
-LDIFF_SYM990=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM990
-	.byte 2
-	.asciz "Beacons.BeconsCell:.ctor"
-	.asciz "Beacons_BeconsCell__ctor"
-
-	.byte 6,27
-	.long Beacons_BeconsCell__ctor
-	.long Lme_17
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM991=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM991
-	.byte 2,125,8,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM992=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM992
-Lfde22_start:
-
-	.long 0
-	.align 2
-	.long Beacons_BeconsCell__ctor
-
-LDIFF_SYM993=Lme_17 - Beacons_BeconsCell__ctor
-	.long LDIFF_SYM993
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,152,10,68,14,12,68,8,8,14,8,68,11
-	.align 2
-Lfde22_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_146:
-
-	.byte 5
 	.asciz "System_Array"
 
 	.byte 8,16
-LDIFF_SYM994=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM988=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM988
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM995=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM995
-LTDIE_146_POINTER:
+LDIFF_SYM989=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM989
+LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM996=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM996
-LTDIE_146_REFERENCE:
+LDIFF_SYM990=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM990
+LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM997=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM997
+LDIFF_SYM991=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
 
-	.byte 7,78
+	.byte 6,78
 	.long System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long Lme_19
+	.long Lme_18
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM998=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM998
+LDIFF_SYM992=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 2,125,28,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM999=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM999
-Lfde23_start:
+LDIFF_SYM993=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM993
+Lfde22_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1000=Lme_19 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1000
+LDIFF_SYM994=Lme_18 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM994
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,72,3,44,1,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde23_end:
+Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7336,42 +7279,42 @@ Lfde23_end:
 	.asciz "System.Array:InternalArray__Insert<T_REF>"
 	.asciz "System_Array_InternalArray__Insert_T_REF_int_T_REF"
 
-	.byte 7,160,1
+	.byte 6,160,1
 	.long System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.long Lme_1a
+	.long Lme_19
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1001=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1001
+LDIFF_SYM995=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM995
 	.byte 2,125,12,3
 	.asciz "index"
 
-LDIFF_SYM1002=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1002
+LDIFF_SYM996=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM996
 	.byte 2,125,16,3
 	.asciz "item"
 
-LDIFF_SYM1003=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM997=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM997
 	.byte 2,125,20,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1004=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1004
-Lfde24_start:
+LDIFF_SYM998=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM998
+Lfde23_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__Insert_T_REF_int_T_REF
 
-LDIFF_SYM1005=Lme_1a - System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.long LDIFF_SYM1005
+LDIFF_SYM999=Lme_19 - System_Array_InternalArray__Insert_T_REF_int_T_REF
+	.long LDIFF_SYM999
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,40,2,164,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde24_end:
+Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7379,37 +7322,37 @@ Lfde24_end:
 	.asciz "System.Array:InternalArray__RemoveAt"
 	.asciz "System_Array_InternalArray__RemoveAt_int"
 
-	.byte 7,165,1
+	.byte 6,165,1
 	.long System_Array_InternalArray__RemoveAt_int
-	.long Lme_1b
+	.long Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1006=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1000=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1000
 	.byte 2,125,8,3
 	.asciz "index"
 
-LDIFF_SYM1007=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1001=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1001
 	.byte 2,125,12,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1008=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1008
-Lfde25_start:
+LDIFF_SYM1002=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1002
+Lfde24_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__RemoveAt_int
 
-LDIFF_SYM1009=Lme_1b - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM1009
+LDIFF_SYM1003=Lme_1a - System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM1003
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,32,2,156,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde25_end:
+Lfde24_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7417,53 +7360,53 @@ Lfde25_end:
 	.asciz "System.Array:InternalArray__IndexOf<T_REF>"
 	.asciz "System_Array_InternalArray__IndexOf_T_REF_T_REF"
 
-	.byte 7,170,1
+	.byte 6,170,1
 	.long System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.long Lme_1c
+	.long Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1010=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1010
+LDIFF_SYM1004=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1004
 	.byte 1,86,3
 	.asciz "item"
 
-LDIFF_SYM1011=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1011
+LDIFF_SYM1005=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1005
 	.byte 1,90,11
 	.asciz "length"
 
-LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1006=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1006
 	.byte 1,85,11
 	.asciz "i"
 
-LDIFF_SYM1013=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1013
+LDIFF_SYM1007=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1007
 	.byte 1,84,11
 	.asciz "value"
 
-LDIFF_SYM1014=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1008
 	.byte 2,125,8,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1015=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1015
-Lfde26_start:
+LDIFF_SYM1009=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1009
+Lfde25_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalArray__IndexOf_T_REF_T_REF
 
-LDIFF_SYM1016=Lme_1c - System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.long LDIFF_SYM1016
+LDIFF_SYM1010=Lme_1b - System_Array_InternalArray__IndexOf_T_REF_T_REF
+	.long LDIFF_SYM1010
 	.byte 68,14,8,135,2,72,14,28,132,7,133,6,134,5,136,4,138,3,142,1,68,14,88,3,0,4,10,68,14,28,68,8
 	.byte 4,8,5,8,6,8,8,8,10,14,8,68,11
 	.align 2
-Lfde26_end:
+Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7471,26 +7414,74 @@ Lfde26_end:
 	.asciz "System.Array:InternalArray__get_Item<T_REF>"
 	.asciz "System_Array_InternalArray__get_Item_T_REF_int"
 
-	.byte 7,197,1
+	.byte 6,197,1
 	.long System_Array_InternalArray__get_Item_T_REF_int
+	.long Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1011=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1011
+	.byte 2,125,16,3
+	.asciz "index"
+
+LDIFF_SYM1012=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1012
+	.byte 2,125,20,11
+	.asciz "value"
+
+LDIFF_SYM1013=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1013
+	.byte 2,125,8,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1014=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1014
+Lfde26_start:
+
+	.long 0
+	.align 2
+	.long System_Array_InternalArray__get_Item_T_REF_int
+
+LDIFF_SYM1015=Lme_1c - System_Array_InternalArray__get_Item_T_REF_int
+	.long LDIFF_SYM1015
+	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,3,84,1,10,68,14,12,68,8,8,14,8,68,11
+	.align 2
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__set_Item<T_REF>"
+	.asciz "System_Array_InternalArray__set_Item_T_REF_int_T_REF"
+
+	.byte 6,207,1
+	.long System_Array_InternalArray__set_Item_T_REF_int_T_REF
 	.long Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1017=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1017
-	.byte 2,125,16,3
+LDIFF_SYM1016=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1016
+	.byte 1,86,3
 	.asciz "index"
+
+LDIFF_SYM1017=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1017
+	.byte 1,90,3
+	.asciz "item"
 
 LDIFF_SYM1018=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1018
 	.byte 2,125,20,11
-	.asciz "value"
+	.asciz "oarray"
 
-LDIFF_SYM1019=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM1019=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM1019
-	.byte 2,125,8,0
+	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -7500,132 +7491,84 @@ Lfde27_start:
 
 	.long 0
 	.align 2
-	.long System_Array_InternalArray__get_Item_T_REF_int
+	.long System_Array_InternalArray__set_Item_T_REF_int_T_REF
 
-LDIFF_SYM1021=Lme_1d - System_Array_InternalArray__get_Item_T_REF_int
+LDIFF_SYM1021=Lme_1d - System_Array_InternalArray__set_Item_T_REF_int_T_REF
 	.long LDIFF_SYM1021
-	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,3,84,1,10,68,14,12,68,8,8,14,8,68,11
+	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,56,2,10,68,14,32
+	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
 	.align 2
 Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__set_Item<T_REF>"
-	.asciz "System_Array_InternalArray__set_Item_T_REF_int_T_REF"
-
-	.byte 7,207,1
-	.long System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.long Lme_1e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1022=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1022
-	.byte 1,86,3
-	.asciz "index"
-
-LDIFF_SYM1023=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1023
-	.byte 1,90,3
-	.asciz "item"
-
-LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1024
-	.byte 2,125,20,11
-	.asciz "oarray"
-
-LDIFF_SYM1025=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1025
-	.byte 1,85,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1026=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1026
-Lfde28_start:
-
-	.long 0
-	.align 2
-	.long System_Array_InternalArray__set_Item_T_REF_int_T_REF
-
-LDIFF_SYM1027=Lme_1e - System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.long LDIFF_SYM1027
-	.byte 68,14,8,135,2,72,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,64,3,56,2,10,68,14,32
-	.byte 68,8,4,8,5,8,6,8,8,8,10,8,11,14,8,68,11
-	.align 2
-Lfde28_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_147:
+LTDIE_146:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 16,16
-LDIFF_SYM1028=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1022=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1022
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1029=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1023=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1023
 	.byte 2,35,8,6
 	.asciz "idx"
 
-LDIFF_SYM1030=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1024=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 2,35,12,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1031=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1031
-LTDIE_147_POINTER:
+LDIFF_SYM1025=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1025
+LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM1032=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1032
-LTDIE_147_REFERENCE:
+LDIFF_SYM1026=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1026
+LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1033=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1027=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1027
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
-	.byte 7,239,1
+	.byte 6,239,1
 	.long System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long Lme_1f
+	.long Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1034=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1028=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1028
 	.byte 2,125,12,3
 	.asciz "array"
 
-LDIFF_SYM1035=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1029=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1029
 	.byte 2,125,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1036=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1036
-Lfde29_start:
+LDIFF_SYM1030=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1030
+Lfde28_start:
 
 	.long 0
 	.align 2
 	.long System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1037=Lme_1f - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1037
+LDIFF_SYM1031=Lme_1e - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1031
 	.byte 68,14,8,135,2,72,14,12,136,3,142,1,68,14,48,2,176,10,68,14,12,68,8,8,14,8,68,11
 	.align 2
-Lfde29_end:
+Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
 

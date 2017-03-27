@@ -57,7 +57,7 @@ namespace Beacons
 
 		public override int GetHashCode()
 		{
-			return Minor.GetHashCode() + Major.GetHashCode() + uuid.GetHashCode();
+			return Minor.GetHashCode() + Major.GetHashCode() + uuid.GetHashCode() + Accuracy.GetHashCode();
 		}
 }
 }

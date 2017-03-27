@@ -2,7 +2,7 @@ package md5dc62b7ce2992b967e6a29823b01c0b0b;
 
 
 public class BeaconsDroid
-	extends md5dc62b7ce2992b967e6a29823b01c0b0b.MainActivity
+	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer,
 		com.estimote.sdk.BeaconManager.ServiceReadyCallback
