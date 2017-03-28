@@ -1,11 +1,6 @@
 ﻿<Properties StartupConfiguration="{2053CCD9-104E-4E6C-B824-311BB9A118CC}|Default">
   <MonoDevelop.Ide.ItemProperties.Beacons.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/BeaconsDroid.cs">
-    <Files>
-      <File FileName="iOS/BeaconsIOS.cs" Line="48" Column="3" />
-      <File FileName="Droid/BeaconsDroid.cs" Line="28" Column="4" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>

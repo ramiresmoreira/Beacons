@@ -25,13 +25,11 @@ using Foundation;
 using CoreFoundation;
 using CoreBluetooth;
 using UIKit;
-using System.Collections.Generic;
-using MapKit;
 
 [assembly: Xamarin.Forms.Dependency(typeof(Beacons.iOS.BeaconsIOS))]
 namespace Beacons.iOS
 {
-	public class BeaconsIOS : UIViewController ,IBeacons, ICLLocationManagerDelegate
+	public class BeaconsIOS : UIViewController, IBeacons, ICLLocationManagerDelegate
 	{
 		CLBeaconRegion region;
 		ObservableCollection<Beacon> beacons = new ObservableCollection<Beacon>();
@@ -42,14 +40,14 @@ namespace Beacons.iOS
 		public BeaconsIOS()
 		{
 			centralManager = new CBCentralManager(DispatchQueue.DefaultGlobalQueue);
-			centralManager.DiscoveredPeripheral += ( sender,  e) => Console.WriteLine("Beacon encontrado");
-			centralManager.ScanForPeripherals(serviceUuid: null );
+			centralManager.DiscoveredPeripheral += (sender, e) => Console.WriteLine("Beacon encontrado");
+			centralManager.ScanForPeripherals(serviceUuid: null);
 		}
 
 		public ObservableCollection<Beacon> getBeacons(string uuid)
 		{
 			var regionUUID = new NSUuid(uuid);
-			region = new CLBeaconRegion(regionUUID,IdRegion);
+			region = new CLBeaconRegion(regionUUID, IdRegion);
 			region.NotifyEntryStateOnDisplay = true;
 			region.NotifyOnExit = true;
 			region.NotifyOnEntry = true;
@@ -57,17 +55,21 @@ namespace Beacons.iOS
 			locatoinManager = new CLLocationManager();
 			locatoinManager.RequestWhenInUseAuthorization();
 
-			locatoinManager.DidRangeBeacons += (sender, e) => {
-				if (e.Beacons.Length > 0 ) {
-					foreach (var beacon in e.Beacons) {
-						if (beacon.Accuracy > 0){
+			locatoinManager.DidRangeBeacons += (sender, e) =>
+			{
+				if (e.Beacons.Length > 0)
+				{
+					foreach (var beacon in e.Beacons)
+					{
+						if (beacon.Accuracy > 0)
+						{
 							var MyBeacon = new Beacon((ushort)beacon.Minor, (ushort)beacon.Major, beacon.ProximityUuid.ToString());
 							MyBeacon.setAccuracy(beacon.Accuracy);
 							beacons.Clear();
 							beacons.Add(MyBeacon);
 						}
 					}
-				}			
+				}
 			};
 			locatoinManager.StartRangingBeacons(region);
 			return this.beacons;
